@@ -4,7 +4,7 @@
 --
 local map = vim.api.nvim_set_keymap
 local opts = { noremap = true, silent = true }
-
+vim.g.neovide_input_macos_alt_is_meta = true
 -- 配置快捷键来打开 session-lens
 map('n', '<leader>fs', ':Telescope session-lens search_session<CR>', opts)
 --map('n', '<leader>nh', ':nohlsearch<CR>', { noremap = true, silent = true })

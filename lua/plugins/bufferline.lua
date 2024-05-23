@@ -16,6 +16,6 @@ return {
   "nvim-tree/nvim-tree.lua",
 
   { 'romgrk/barbar.nvim',
-    requires = {'nvim-tree/nvim-web-devicons'}
+    requires = {'nvim-tree/nvim-web-devicons'},
   }
 }
