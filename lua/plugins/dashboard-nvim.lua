@@ -24,7 +24,7 @@ return {
         header = vim.split(logo, "\n"),
         -- stylua: ignore
         center = {
-          { action = "Telescope project",                                       desc = " Recent Projects",    icon = " ", key = "p" },
+          { action = "Telescope neovim-project discover",                                       desc = " Projects",    icon = " ", key = "p" },
           { action = LazyVim.telescope("files"),                                    desc = " Find File",       icon = " ", key = "f" },
           { action = "ene | startinsert",                                        desc = " New File",        icon = " ", key = "n" },
           { action = "Telescope oldfiles",                                       desc = " Recent Files",    icon = " ", key = "r" },
